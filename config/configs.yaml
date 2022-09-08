@@ -1,0 +1,23 @@
+env:
+  env_name: test
+
+kafka:
+  topic: PMTopic
+  bootstrap_servers: [ localhost:9092 ]
+
+url:
+  base_url: https://localhost:44302
+  route_1: /status/isalive
+  route_2: /api/Todos
+  route_3:
+  route_4:
+
+request_body:
+  post: {
+    'listId': 1882,
+    'todoName': Monitor,
+    'finishDate': !!str 2022-08-22T11:44:07.845Z
+  }
+
+#https://petstore.swagger.io/v2/pet/322717570?ID=1
+#https://localhost:44302/status/isalive
