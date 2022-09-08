@@ -6,8 +6,8 @@ kafka:
   bootstrap_servers: [ localhost:9092 ]
 
 url:
-  base_url: https://localhost:44302
-  route_1: /status/isalive
+  base_url: https://petstore.swagger.io
+  route_1: /v2/pet/322717570?ID=1
   route_2: /api/Todos
   route_3:
   route_4:

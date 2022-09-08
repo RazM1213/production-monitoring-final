@@ -10,17 +10,17 @@ REQUESTS = {
         status_codes=ALL_STATUS_CODES,
         amount=10
     ),
-    f"GET {ROUTE_2}": Request(
-        request_method=HttpMethodsEnum.GET,
-        url=BASE_URL + ROUTE_2,
-        status_codes=ALL_STATUS_CODES,
-        amount=5
-    ),
-    f"POST {ROUTE_2}": Request(
-        request_method=HttpMethodsEnum.POST,
-        url=BASE_URL + ROUTE_2,
-        status_codes=ALL_STATUS_CODES,
-        request_body=POST_REQUEST_BODY,
-        amount=10
-    )
+    # f"GET {ROUTE_2}": Request(
+    #     request_method=HttpMethodsEnum.GET,
+    #     url=BASE_URL + ROUTE_2,
+    #     status_codes=ALL_STATUS_CODES,
+    #     amount=5
+    # ),
+    # f"POST {ROUTE_2}": Request(
+    #     request_method=HttpMethodsEnum.POST,
+    #     url=BASE_URL + ROUTE_2,
+    #     status_codes=ALL_STATUS_CODES,
+    #     request_body=POST_REQUEST_BODY,
+    #     amount=10
+    # )
 }
