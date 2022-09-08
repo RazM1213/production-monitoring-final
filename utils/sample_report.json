@@ -1,0 +1,50 @@
+{
+  "name": "route_name",
+  "time": "2022-08-17 13:46:08.074",
+  "status_code_info": {
+    "status_codes_counter": [
+      {
+        "status_code": 200,
+        "count": 10
+      },
+      {
+        "status_code": 400,
+        "count": 0
+      },
+      {
+        "status_code": 500,
+        "count": 0
+      }
+    ],
+    "error_requests_info": [
+      {
+        "status_code": 400,
+        "order_positions": []
+      },
+      {
+        "status_code": 500,
+        "order_positions": []
+      }
+    ],
+    "is_failed": false,
+    "error_count": 0
+  },
+  "report_stat": {
+    "request_time": {
+      "average": 0.031152700000000005,
+      "maximum": 0.047573,
+      "minimum": 0.01513
+    },
+    "request_amount": 10
+  },
+  "run_stat": {
+    "env": "test",
+    "request_time": {
+      "average": 0.05297706666666667,
+      "maximum": 0.104543,
+      "minimum": 0.01513
+    },
+    "amount": 15
+  },
+  "id": "658adc90-dfd0-4432-aae2-0eca4976eabb"
+}
